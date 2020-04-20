@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./Search";
 
 function Navbar() {
   return (
@@ -6,8 +7,7 @@ function Navbar() {
       <h1>Home</h1>
       <h1>Notifications</h1>
       <h1>Messages</h1>
-      <input>Search</input>
-      <button>Tweet</button>
+      <Search />
     </React.Fragment>
   );
 }

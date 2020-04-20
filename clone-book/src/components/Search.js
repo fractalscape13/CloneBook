@@ -4,7 +4,6 @@ function Search() {
   return (
     <React.Fragment>
       <form>
-        
         <input defaultValue="Search"></input>
         <button type="submit">Tweet</button>
       </form>
